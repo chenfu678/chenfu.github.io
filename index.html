@@ -115,7 +115,7 @@
     <!-- 计时器 -->
     <script>
         function timer() {
-            var start = new Date(2021, 07, 26, 23, 00, 00); // 2020.07.31 13:14:00
+            var start = new Date(2021, 07, 26, 00, 00, 00); // 真实事件2021 08 26，此时没学会JavaScript计时器代码，时间相差了一个月，故这样填
             var t = new Date() - start;
             var h = ~~(t / 1000 / 60 / 60 % 24);
             if (h < 10) {
